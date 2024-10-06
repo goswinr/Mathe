@@ -16,16 +16,16 @@
     <Title>Mathe</Title>
     <Product>Mathe</Product>
     <PackageId>Mathe</PackageId>
-    <Version>0.2.0</Version>
-    <AssemblyVersion>0.2.0</AssemblyVersion>
-    <FileVersion>0.2.0</FileVersion>
+    <Version>0.2.1</Version>
+    <AssemblyVersion>0.2.1</AssemblyVersion>
+    <FileVersion>0.2.1</FileVersion>
     <PackageReleaseNotes>
       - add tests
 	  </PackageReleaseNotes>
     <Authors>GoswinR</Authors>
     <Copyright>Goswin Rothenthal 2024</Copyright>
-    <Description>A small F# library for working with colors.</Description>
-    <PackageDescription>A small F# library for working with colors.</PackageDescription>
+    <Description>A small F# library for working with math. Works in Fable too.</Description>
+    <PackageDescription>A small F# library for working with math. Works in Fable too.</PackageDescription>
     <!--used on nuget.org-->
     <WarningLevel>5</WarningLevel>
     <!-- WarningLevel 3 is default , see https://github.com/dsyme/fsharp-presentations/blob/master/design-notes/off-by-default-warnings.md -->
@@ -45,8 +45,9 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageIcon>logo128.png</PackageIcon>
     <PackageReadmeFile>READMEnuget.md</PackageReadmeFile>
-    <!--using  snupkg the readme does not pack https://github.com/NuGet/Home/issues/10791 -->
-    <PackageTags>fsharp color colors</PackageTags>
+    <PackageTags>fsharp fable math</PackageTags>
+    <DebugType>embedded</DebugType>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Update="FSharp.Core" Version="6.0.7" />

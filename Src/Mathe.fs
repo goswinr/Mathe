@@ -27,9 +27,9 @@ module MatheFail =
 #nowarn "44" // obsolete warning
 open MatheFail
 
+
 /// Math Utils.
 type Mathe private () =
-
 
     static let rand = System.Random()
 

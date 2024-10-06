@@ -9,6 +9,7 @@
 ![Logo](https://raw.githubusercontent.com/goswinr/Mathe/main/Doc/logo.png)
 
 A small math utility library for F#.
+Works in [Fable](https://fable.io/) too.
 
 Most functions check their float input for NaN and Infinity and fail instead of passing NaN or Infinity through.
 
